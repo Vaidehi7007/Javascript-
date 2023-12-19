@@ -37,4 +37,27 @@ console.log(typeof anotherId);
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
+// ++++++++++++++++stack and Heap memory+++++++++++++++++++
+
+//stack(primitive), heap(non-primitive)
+
+let myYouTubeName = 'nehaawsthi';
+
+let anotherName = myYouTubeName;
+anotherName = 'Himanshu';
+
+console.log(myYouTubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: 'user@google.com',
+    upi: 'user@ybl',
+}
+
+let userTwo = userOne;
+
+userTwo.email = 'neha@google.com';
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
