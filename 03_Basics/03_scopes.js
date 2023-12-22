@@ -1,21 +1,23 @@
+//+++++++++ global scope +++++++++
 //var c = 300
 let a = 300
-if (true) {
+//+++++++++++ block scope +++++++++
+if (true) {   
     let a = 10
     const b = 20
     // console.log("INNER: ", a);
     
 }
 
-
-
 // console.log(a);
 // console.log(b);
 // console.log(c);
 
 
+//++++++++++++++++ scope level ++++++++++++
+
 function one(){
-    const username = "hitesh"
+    const username = "neha"
 
     function two(){
         const website = "youtube"
@@ -30,8 +32,8 @@ function one(){
 // one()
 
 if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
+    const username = "neha"
+    if (username === "neha") {
         const website = " youtube"
         // console.log(username + website);
     }
@@ -51,7 +53,7 @@ function addone(num){
 }
 
 
-
+// hosting function
 addTwo(5)
 const addTwo = function(num){
     return num + 2
