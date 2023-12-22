@@ -12,7 +12,7 @@ function sayMyName(){
 // sayMyName         //This is a function refrence.
 // sayMyName()       //This is a execution.
 
-// function addTwoNumbers(number1, number2){  //it's a parametars(number1, number2)
+// function addTwoNumbers(number1, number2){  //it's a parameters(number1, number2)
 
 //     console.log(number1 + number2);
 // }
