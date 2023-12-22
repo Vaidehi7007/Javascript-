@@ -10,7 +10,7 @@ function sayMyName(){
 }
 
 // sayMyName         //This is a function refrence.
-// sayMyName()       //This is a execution.
+// sayMyName()        //This is a execution.
 
 // function addTwoNumbers(number1, number2){  //it's a parameters(number1, number2)
 
